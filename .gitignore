@@ -1,0 +1,16 @@
+# Allow ProjectData folder itself
+!/ProjectData/
+
+# Ignore everything inside ProjectData
+ProjectData/*
+
+# But DO NOT ignore the folder path itself
+!ProjectData/.gitkeep
+
+# General Python ignores
+__pycache__/
+*.pyc
+venv/
+.env
+.DS_Store
+Thumbs.db
